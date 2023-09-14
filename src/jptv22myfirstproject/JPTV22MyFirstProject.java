@@ -22,6 +22,7 @@ public class JPTV22MyFirstProject {
         String firstname = scanner.nextLine();
         System.out.println("Enter your last name");
         String lastname = scanner.nextLine();
+        System.out.println("Enter your age:");
         String age = scanner.nextLine();
         System.out.println("Hello" + " " + firstname + " " + lastname+"!");
         System.out.println(age);
