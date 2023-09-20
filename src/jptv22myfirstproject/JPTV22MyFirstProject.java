@@ -29,8 +29,11 @@ public class JPTV22MyFirstProject {
 
 
         
-      App app = new App();
-      app.run();
+//      App app = new App();
+//      app.run();
+      
+      AppHW apphw = new AppHW();
+      apphw.run();
     
         
     }
