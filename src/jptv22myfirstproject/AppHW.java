@@ -68,6 +68,7 @@ public class AppHW {
                     break;
                 case '*':
                     result = num1 * num2;
+                    repeat = false;
                     break;
                 case '/':
                     if (num2 != 0) {
@@ -76,6 +77,7 @@ public class AppHW {
                         System.out.println("Ошибка: деление на ноль");
                         return;
                     }
+                    repeat = false;
                     break;
                 default:
                     System.out.println("Ошибка: некорректный оператор");
